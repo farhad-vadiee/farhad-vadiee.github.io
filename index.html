@@ -1,13 +1,329 @@
-<!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-<title>Page Title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Farhad Vadiee</title>
+    <link rel="stylesheet" href="build/style.css">
 </head>
+
 <body>
 
-<h1>My First Heading</h1>
-<p>My first paragraph.</p>
+    <div class="container mx-auto py-10">
+        <div
+            class="flex flex-col md:grid md:grid-rows-1 lg:row-span-2 grid-flow-row grid-cols-12 md:grid-flow-row lg:grid-flow-row">
+            <div class="md:row-span-1 lg:row-span-2 col-span-12 md:col-span-6 lg:col-span-4">
+                <div class="relative m-4 border border-gray-600">
+                    <!--            graph top -->
+                    <svg class="fill-current text-gray-600 absolute left-45 -mt-10 bg-white"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50"
+                        height="50pt" viewBox="0 0 50 50" version="1.1">
+                        <g id="surface1">
+                            <path
+                                d="M 10.519531 28.75 C 9.699219 28.355469 8.78125 28.125 7.8125 28.125 C 4.367188 28.125 1.5625 30.929688 1.5625 34.375 C 1.5625 37.820312 4.367188 40.625 7.8125 40.625 C 9.976562 40.625 11.882812 39.519531 13.007812 37.847656 L 18.910156 40.800781 C 18.808594 41.246094 18.75 41.710938 18.75 42.1875 C 18.75 45.632812 21.554688 48.4375 25 48.4375 C 28.445312 48.4375 31.25 45.632812 31.25 42.1875 C 31.25 40.890625 30.855469 39.6875 30.175781 38.6875 L 38.472656 30.015625 C 39.511719 30.785156 40.796875 31.25 42.1875 31.25 C 45.632812 31.25 48.4375 28.445312 48.4375 25 C 48.4375 21.554688 45.632812 18.75 42.1875 18.75 C 40.746094 18.75 39.421875 19.246094 38.359375 20.070312 L 29.929688 11.640625 C 30.753906 10.578125 31.25 9.253906 31.25 7.8125 C 31.25 4.367188 28.445312 1.5625 25 1.5625 C 21.554688 1.5625 18.75 4.367188 18.75 7.8125 C 18.75 8.289062 18.808594 8.75 18.910156 9.195312 L 13.367188 11.214844 C 12.328125 9.195312 10.230469 7.8125 7.8125 7.8125 C 4.367188 7.8125 1.5625 10.617188 1.5625 14.0625 C 1.5625 17.507812 4.367188 20.3125 7.8125 20.3125 C 8.703125 20.3125 9.546875 20.125 10.3125 19.785156 L 13.1875 24.625 Z M 7.8125 39.0625 C 5.226562 39.0625 3.125 36.960938 3.125 34.375 C 3.125 31.789062 5.226562 29.6875 7.8125 29.6875 C 10.398438 29.6875 12.5 31.789062 12.5 34.375 C 12.5 36.960938 10.398438 39.0625 7.8125 39.0625 Z M 13.703125 36.445312 C 13.929688 35.796875 14.0625 35.101562 14.0625 34.375 C 14.0625 32.457031 13.195312 30.742188 11.832031 29.597656 L 14.078125 26.125 L 20.851562 37.523438 C 20.28125 38.03125 19.804688 38.640625 19.453125 39.324219 Z M 25 14.0625 C 26.441406 14.0625 27.765625 13.566406 28.828125 12.742188 L 37.257812 21.175781 C 36.75 21.824219 36.375 22.574219 36.15625 23.390625 L 31.246094 22.71875 C 31.246094 22.695312 31.25 22.675781 31.25 22.65625 C 31.25 19.210938 28.445312 16.40625 25 16.40625 C 22.835938 16.40625 20.929688 17.511719 19.804688 19.183594 L 18.875 18.71875 L 22.292969 13.4375 C 23.113281 13.832031 24.03125 14.0625 25 14.0625 Z M 25.78125 35.992188 L 25.78125 28.851562 C 28.320312 28.53125 30.386719 26.6875 31.03125 24.265625 L 35.941406 24.9375 C 35.941406 24.960938 35.9375 24.980469 35.9375 25 C 35.9375 26.492188 36.464844 27.863281 37.339844 28.9375 L 29.136719 37.515625 C 28.21875 36.699219 27.058594 36.152344 25.78125 35.992188 Z M 25 17.96875 C 27.585938 17.96875 29.6875 20.070312 29.6875 22.65625 C 29.6875 25.242188 27.585938 27.34375 25 27.34375 C 22.414062 27.34375 20.3125 25.242188 20.3125 22.65625 C 20.3125 20.070312 22.414062 17.96875 25 17.96875 Z M 19.109375 20.585938 C 18.882812 21.234375 18.75 21.929688 18.75 22.65625 C 18.75 25.835938 21.140625 28.464844 24.21875 28.851562 L 24.21875 35.992188 C 23.476562 36.085938 22.777344 36.308594 22.140625 36.636719 L 15.027344 24.660156 L 18.019531 20.039062 Z M 25 46.875 C 22.414062 46.875 20.3125 44.773438 20.3125 42.1875 C 20.3125 39.601562 22.414062 37.5 25 37.5 C 27.585938 37.5 29.6875 39.601562 29.6875 42.1875 C 29.6875 44.773438 27.585938 46.875 25 46.875 Z M 42.1875 20.3125 C 44.773438 20.3125 46.875 22.414062 46.875 25 C 46.875 27.585938 44.773438 29.6875 42.1875 29.6875 C 39.601562 29.6875 37.5 27.585938 37.5 25 C 37.5 22.414062 39.601562 20.3125 42.1875 20.3125 Z M 25 3.125 C 27.585938 3.125 29.6875 5.226562 29.6875 7.8125 C 29.6875 10.398438 27.585938 12.5 25 12.5 C 22.414062 12.5 20.3125 10.398438 20.3125 7.8125 C 20.3125 5.226562 22.414062 3.125 25 3.125 Z M 19.445312 10.660156 C 19.824219 11.402344 20.347656 12.058594 20.980469 12.589844 L 17.46875 18.015625 L 13.703125 16.132812 C 13.929688 15.484375 14.0625 14.789062 14.0625 14.0625 C 14.0625 13.585938 14.003906 13.125 13.902344 12.679688 Z M 3.125 14.0625 C 3.125 11.476562 5.226562 9.375 7.8125 9.375 C 10.398438 9.375 12.5 11.476562 12.5 14.0625 C 12.5 16.648438 10.398438 18.75 7.8125 18.75 C 5.226562 18.75 3.125 16.648438 3.125 14.0625 Z M 11.652344 18.984375 C 12.175781 18.574219 12.636719 18.085938 13.007812 17.535156 L 16.613281 19.335938 L 14.136719 23.164062 Z M 11.652344 18.984375 " />
+                        </g>
+                    </svg>
+                    <!--            -->
 
+                    <div class="container p-8">
+                        <img class="w-5/6 mx-auto rounded-full mb-10" src="img/Farhad.jpeg">
+
+                        <p class="tracking-wide text-lg leading-loose">
+                            <svg class="h-6 w-6 inline-flex text-gray-500" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+                            Farhad Vadiee
+                        </p>
+                        <p class="font-mono text-xs">
+                            <svg class="h-6 w-6 inline-flex text-gray-500" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M11 5.882V19.24a1.76 1.76 0 01-3.417.592l-2.147-6.15M18 13a3 3 0 100-6M5.436 13.683A4.001 4.001 0 017 6h1.832c4.1 0 7.625-1.234 9.168-3v14c-1.543-1.766-5.067-3-9.168-3H7a3.988 3.988 0 01-1.564-.317z" />
+                            </svg>
+                            /fæɾˈhɒːd vadiːiː/
+                            <audio id="phon" autobuffer="autobuffer">
+                                <source
+                                    src="data:audio/mpeg;base64,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%0Aqqqqqqqqqqqqqqqqqqqqqg==" />
+                            </audio>
+                            <button onclick="document.getElementById('phon').play()">
+                                <svg class="h-6 w-6 inline-flex text-red-300" fill="none" viewBox="0 0 24 24"
+                                    stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                </svg>
+                            </button>
+                        </p>
+                        <p class="tracking-wide text-lg leading-loose">
+                            <svg class="h-6 w-6 inline-flex text-gray-500" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path fill="#fff" d="M12 14l9-5-9-5-9 5 9 5z" />
+                                <path fill="#fff"
+                                    d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222" />
+                            </svg>
+                            PhD Candidate and Lecturer
+                        </p>
+                        <p class="tracking-wide text-lg leading-loose">
+                            <svg class="h-6 w-6 inline-flex text-gray-500" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                            </svg>
+                            <a href="https://www.uib.no/" class="hover:text-red-600">University of Bergen</a>
+                        </p>
+                        <p class="tracking-wide text-base leading-loose">
+                            <svg class="h-6 w-6 inline-flex text-gray-500" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z" />
+                            </svg>
+                            <a href="https://www.uib.no/en/ii" class="hover:text-red-600">Department of Informatics</a>
+                        </p>
+                        <p class="tracking-wide text-lg leading-loose">
+                            <svg class="h-6 w-6 inline-flex text-gray-500" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207" />
+                            </svg>
+                            <a href="mailto:farhad.vadiee@uib.no" class="hover:text-red-600">farhad.vadiee@uib.no</a>
+                        </p>
+                        <p class="tracking-wide text-lg leading-loose">
+                            <svg class="h-6 w-6 inline-flex text-gray-500" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207" />
+                            </svg>
+                            <a href="mailto:farhad.vadiee@gmail.com"
+                                class="hover:text-red-600">farhad.vadiee@gmail.com</a>
+                        </p>
+                    </div>
+                </div>
+
+                <!--<div class="relative m-4 p-10 border border-gray-500 text-gray-500 text-center md:text-right">
+                <ul>
+                    <li class="hover:text-red-600 underline hover:no-underline"><a href="#aboutMe">About Me</a></li>
+                    <li class="hover:text-red-600 underline hover:no-underline"><a href="#researchInterests">Research Interests</a></li>
+                    <li class="hover:text-red-600 underline hover:no-underline"><a href="#publications">Publications</a></li>
+                </ul>
+            </div>-->
+            </div>
+
+            <div class="relative md:row-span-1 col-span-12 md:col-span-6 lg:col-span-8">
+                <div class="m-4 mb-8 p-10  border border-gray-600" id="aboutMe">
+                    <span class="font-semibold text-xl tracking-loose border-b border-black">About me</span>
+                    <p class="text-gray-800">
+                        <br>
+                        
+                        I'm in my fourth year as a Ph.D. candidate in the algorithm group of the Department of Informatics at the University of Bergen in Norway. Here, I currently hold a 50% lecturer position. I received my Master's from Sharif University of Technology (Iran).
+                        My research focuses on parameterized algorithm, automated theorem proving, and model checking. 
+                        I am working in the project Automated Theorem Proving from the Mindset of Parameterized
+                        Complexity Theory (<a href="https://autoproving.org/"> AUTOPROVING </a>) under the supervision
+                        of <a href="https://autoproving.org/mateus-de-oliveira-oliveira/">Mateus de Oliveira
+                            Oliveira</a>.
+
+                    </p>
+
+                    <!--                <a class="group hover:bg-red-600 text-gray-800 border border-red-600 hover:border-transparent hover:text-white mt-8 py-2 px-4 inline-flex items-center"-->
+                    <!--                   href="#">-->
+                    <!--                    <svg class="h-6 w-6 text-red-600 group-hover:text-white inline-flex" fill="none" viewBox="0 0 24 24" stroke="currentColor">-->
+                    <!--                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />-->
+                    <!--                    </svg>&nbsp;&nbsp;-->
+                    <!--                    Download CV-->
+                    <!--                </a>-->
+
+                    <!--            flowchart bottom -->
+                    <div class="w-20 h-20 absolute left-45 bg-flowchart bg-no-repeat mx-auto"></div>
+                    <!--            -->
+                </div>
+
+
+
+                <div class="m-4 mb-8 p-10 border border-gray-600" id="researchInterests">
+                    <span class="font-semibold text-xl tracking-loose border-b border-black">Research Interests</span>
+                    <ul class="list-circle leading-loose pt-4">
+                        <li>Algorithms and Optimization</li>
+                        <li>Parameterized Complexity</li>
+                        <li>Combinatorics</li>
+                        <li>Automated Deduction</li>
+                        <li>Model-checking</li>
+                    </ul>
+                </div>
+
+
+                <!--            <div class="relative m-4 mb-8 p-10 border border-gray-600">-->
+                <!--                &lt;!&ndash;            UiB right &ndash;&gt;-->
+                <!--                <div class="w-20 h-20 lg:w-32 lg:h-32 absolute bg-UiB bg-no-repeat right-0 -mr-6 lg:-mr-8"></div>-->
+                <!--                &lt;!&ndash;            &ndash;&gt;-->
+
+                <!--                <span class="font-semibold text-xl tracking-loose border-b border-black">Education</span>-->
+                <!--                <div class="divide-y divide-gray-400">-->
+                <!--                    <div class="py-2">-->
+                <!--                <span class="inline-flex -ml-14 pr-5 text-gray-600">-->
+                <!--                    <svg class="h-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">-->
+                <!--                      <path fill="#fff" d="M12 14l9-5-9-5-9 5 9 5z" />-->
+                <!--                      <path fill="#fff" d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />-->
+                <!--                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222" />-->
+                <!--                    </svg>-->
+                <!--                </span>-->
+                <!--                        <span class="font-bold align-top text-lg">Univerisity of Bergen</span>-->
+                <!--                        <p class="font-mono -mt-1 md:-mt-4 text-gray-600 text-sm">2019 - Now</p>-->
+                <!--                        <p class="text-gray-800 italic">info about theis or advisor</p>-->
+                <!--                    </div>-->
+
+                <!--                    <div class="py-2 ">-->
+                <!--                <span class="inline-flex -ml-14 pr-5 text-gray-600">-->
+                <!--                    <svg class="h-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">-->
+                <!--                      <path fill="#fff" d="M12 14l9-5-9-5-9 5 9 5z" />-->
+                <!--                      <path fill="#fff" d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />-->
+                <!--                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222" />-->
+                <!--                    </svg>-->
+                <!--                </span>-->
+                <!--                        <span class="font-bold align-top text-lg">Sharif University of Technology</span>-->
+                <!--                        <p class="font-mono -mt-1 md:-mt-4 text-gray-600 text-sm">2016 - 2019</p>-->
+                <!--                        <p class="text-gray-800 italic">info about theis or advisor</p>-->
+                <!--                    </div>-->
+
+                <!--                    <div class="py-2">-->
+                <!--                <span class="inline-flex -ml-14 pr-5 text-gray-600">-->
+                <!--                    <svg class="h-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">-->
+                <!--                      <path fill="#fff" d="M12 14l9-5-9-5-9 5 9 5z" />-->
+                <!--                      <path fill="#fff" d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />-->
+                <!--                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222" />-->
+                <!--                    </svg>-->
+                <!--                </span>-->
+                <!--                        <span class="font-bold align-top text-lg">Amirkabir University of Technology</span>-->
+                <!--                        <p class="font-mono -mt-1 md:-mt-4 text-gray-600 text-sm">2012 - 2016</p>-->
+                <!--                        <p class="text-gray-800 italic">info about theis or advisor</p>-->
+                <!--                    </div>-->
+                <!--                </div>-->
+
+                <!--            </div>-->
+                <div class="relative m-4 mb-8 p-10 border border-gray-600" id="news">
+                    <!--            graph top -->
+                    <svg class="fill-current text-gray-600 absolute left-45 -mt-16 bg-white"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50"
+                        height="50pt" viewBox="0 0 50 50" version="1.1">
+                        <g id="surface1">
+                            <path
+                                d="M 10.519531 28.75 C 9.699219 28.355469 8.78125 28.125 7.8125 28.125 C 4.367188 28.125 1.5625 30.929688 1.5625 34.375 C 1.5625 37.820312 4.367188 40.625 7.8125 40.625 C 9.976562 40.625 11.882812 39.519531 13.007812 37.847656 L 18.910156 40.800781 C 18.808594 41.246094 18.75 41.710938 18.75 42.1875 C 18.75 45.632812 21.554688 48.4375 25 48.4375 C 28.445312 48.4375 31.25 45.632812 31.25 42.1875 C 31.25 40.890625 30.855469 39.6875 30.175781 38.6875 L 38.472656 30.015625 C 39.511719 30.785156 40.796875 31.25 42.1875 31.25 C 45.632812 31.25 48.4375 28.445312 48.4375 25 C 48.4375 21.554688 45.632812 18.75 42.1875 18.75 C 40.746094 18.75 39.421875 19.246094 38.359375 20.070312 L 29.929688 11.640625 C 30.753906 10.578125 31.25 9.253906 31.25 7.8125 C 31.25 4.367188 28.445312 1.5625 25 1.5625 C 21.554688 1.5625 18.75 4.367188 18.75 7.8125 C 18.75 8.289062 18.808594 8.75 18.910156 9.195312 L 13.367188 11.214844 C 12.328125 9.195312 10.230469 7.8125 7.8125 7.8125 C 4.367188 7.8125 1.5625 10.617188 1.5625 14.0625 C 1.5625 17.507812 4.367188 20.3125 7.8125 20.3125 C 8.703125 20.3125 9.546875 20.125 10.3125 19.785156 L 13.1875 24.625 Z M 7.8125 39.0625 C 5.226562 39.0625 3.125 36.960938 3.125 34.375 C 3.125 31.789062 5.226562 29.6875 7.8125 29.6875 C 10.398438 29.6875 12.5 31.789062 12.5 34.375 C 12.5 36.960938 10.398438 39.0625 7.8125 39.0625 Z M 13.703125 36.445312 C 13.929688 35.796875 14.0625 35.101562 14.0625 34.375 C 14.0625 32.457031 13.195312 30.742188 11.832031 29.597656 L 14.078125 26.125 L 20.851562 37.523438 C 20.28125 38.03125 19.804688 38.640625 19.453125 39.324219 Z M 25 14.0625 C 26.441406 14.0625 27.765625 13.566406 28.828125 12.742188 L 37.257812 21.175781 C 36.75 21.824219 36.375 22.574219 36.15625 23.390625 L 31.246094 22.71875 C 31.246094 22.695312 31.25 22.675781 31.25 22.65625 C 31.25 19.210938 28.445312 16.40625 25 16.40625 C 22.835938 16.40625 20.929688 17.511719 19.804688 19.183594 L 18.875 18.71875 L 22.292969 13.4375 C 23.113281 13.832031 24.03125 14.0625 25 14.0625 Z M 25.78125 35.992188 L 25.78125 28.851562 C 28.320312 28.53125 30.386719 26.6875 31.03125 24.265625 L 35.941406 24.9375 C 35.941406 24.960938 35.9375 24.980469 35.9375 25 C 35.9375 26.492188 36.464844 27.863281 37.339844 28.9375 L 29.136719 37.515625 C 28.21875 36.699219 27.058594 36.152344 25.78125 35.992188 Z M 25 17.96875 C 27.585938 17.96875 29.6875 20.070312 29.6875 22.65625 C 29.6875 25.242188 27.585938 27.34375 25 27.34375 C 22.414062 27.34375 20.3125 25.242188 20.3125 22.65625 C 20.3125 20.070312 22.414062 17.96875 25 17.96875 Z M 19.109375 20.585938 C 18.882812 21.234375 18.75 21.929688 18.75 22.65625 C 18.75 25.835938 21.140625 28.464844 24.21875 28.851562 L 24.21875 35.992188 C 23.476562 36.085938 22.777344 36.308594 22.140625 36.636719 L 15.027344 24.660156 L 18.019531 20.039062 Z M 25 46.875 C 22.414062 46.875 20.3125 44.773438 20.3125 42.1875 C 20.3125 39.601562 22.414062 37.5 25 37.5 C 27.585938 37.5 29.6875 39.601562 29.6875 42.1875 C 29.6875 44.773438 27.585938 46.875 25 46.875 Z M 42.1875 20.3125 C 44.773438 20.3125 46.875 22.414062 46.875 25 C 46.875 27.585938 44.773438 29.6875 42.1875 29.6875 C 39.601562 29.6875 37.5 27.585938 37.5 25 C 37.5 22.414062 39.601562 20.3125 42.1875 20.3125 Z M 25 3.125 C 27.585938 3.125 29.6875 5.226562 29.6875 7.8125 C 29.6875 10.398438 27.585938 12.5 25 12.5 C 22.414062 12.5 20.3125 10.398438 20.3125 7.8125 C 20.3125 5.226562 22.414062 3.125 25 3.125 Z M 19.445312 10.660156 C 19.824219 11.402344 20.347656 12.058594 20.980469 12.589844 L 17.46875 18.015625 L 13.703125 16.132812 C 13.929688 15.484375 14.0625 14.789062 14.0625 14.0625 C 14.0625 13.585938 14.003906 13.125 13.902344 12.679688 Z M 3.125 14.0625 C 3.125 11.476562 5.226562 9.375 7.8125 9.375 C 10.398438 9.375 12.5 11.476562 12.5 14.0625 C 12.5 16.648438 10.398438 18.75 7.8125 18.75 C 5.226562 18.75 3.125 16.648438 3.125 14.0625 Z M 11.652344 18.984375 C 12.175781 18.574219 12.636719 18.085938 13.007812 17.535156 L 16.613281 19.335938 L 14.136719 23.164062 Z M 11.652344 18.984375 " />
+                        </g>
+                    </svg>
+                    <!--            -->
+                    <span class="font-semibold text-xl tracking-loose border-b border-black">News</span>
+                    <ul class="list-circle leading-loose pt-4">
+                        <!--<li class="pb-2">
+            <span class="font-bold">Here we will insert the title of our publications</span>
+            <p class="italic text-gray-800">here authors/journal/etc.</p>
+        </li>-->
+                        <li class="pb-2">In the Department of Informatics at the University of Bergen, I hold a 50% lecturer position for the spring semester of 2023.</li>
+                        <li class="pb-2">I participated in 8th Czech-Slovak International Symposium on Graph Theory, Combinatorics, Algorithms, and Applications, Prague, July 2022.</li>
+                        <li class="pb-2">I participated in Swedish Summer School in Computer Science 2022 (hosted by KTH
+                            university).</i></li>
+                        <li class="pb-2">Mariyam Khan and I are the organizers of the ICT Research School Annual Meeting
+                            2022 at the University of Bergen.</i></li>
+                        <li class="pb-2">I participated in Advances in Parameterized Graph Algorithms (APGA 2022)
+                            workshop in Calpe, Spain.</i></li>
+                        <li class="pb-2">I am in charge of the Algorithms group's series seminars for the spring
+                            semester 2022.</i></li>
+                        <li class="pb-2">I visited the university of Trier in November 2021. I gave a talk about
+                            <i>"Dynamic Programming Refutations."</i></li>
+
+
+                    </ul>
+                </div>
+                <div class="relative m-4 mb-8 p-10 border border-gray-600" id="publications">
+                    <!--            graph top -->
+                    <svg class="fill-current text-gray-600 absolute left-45 -mt-16 bg-white"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50"
+                        height="50pt" viewBox="0 0 50 50" version="1.1">
+                        <g id="surface1">
+                            <path
+                                d="M 10.519531 28.75 C 9.699219 28.355469 8.78125 28.125 7.8125 28.125 C 4.367188 28.125 1.5625 30.929688 1.5625 34.375 C 1.5625 37.820312 4.367188 40.625 7.8125 40.625 C 9.976562 40.625 11.882812 39.519531 13.007812 37.847656 L 18.910156 40.800781 C 18.808594 41.246094 18.75 41.710938 18.75 42.1875 C 18.75 45.632812 21.554688 48.4375 25 48.4375 C 28.445312 48.4375 31.25 45.632812 31.25 42.1875 C 31.25 40.890625 30.855469 39.6875 30.175781 38.6875 L 38.472656 30.015625 C 39.511719 30.785156 40.796875 31.25 42.1875 31.25 C 45.632812 31.25 48.4375 28.445312 48.4375 25 C 48.4375 21.554688 45.632812 18.75 42.1875 18.75 C 40.746094 18.75 39.421875 19.246094 38.359375 20.070312 L 29.929688 11.640625 C 30.753906 10.578125 31.25 9.253906 31.25 7.8125 C 31.25 4.367188 28.445312 1.5625 25 1.5625 C 21.554688 1.5625 18.75 4.367188 18.75 7.8125 C 18.75 8.289062 18.808594 8.75 18.910156 9.195312 L 13.367188 11.214844 C 12.328125 9.195312 10.230469 7.8125 7.8125 7.8125 C 4.367188 7.8125 1.5625 10.617188 1.5625 14.0625 C 1.5625 17.507812 4.367188 20.3125 7.8125 20.3125 C 8.703125 20.3125 9.546875 20.125 10.3125 19.785156 L 13.1875 24.625 Z M 7.8125 39.0625 C 5.226562 39.0625 3.125 36.960938 3.125 34.375 C 3.125 31.789062 5.226562 29.6875 7.8125 29.6875 C 10.398438 29.6875 12.5 31.789062 12.5 34.375 C 12.5 36.960938 10.398438 39.0625 7.8125 39.0625 Z M 13.703125 36.445312 C 13.929688 35.796875 14.0625 35.101562 14.0625 34.375 C 14.0625 32.457031 13.195312 30.742188 11.832031 29.597656 L 14.078125 26.125 L 20.851562 37.523438 C 20.28125 38.03125 19.804688 38.640625 19.453125 39.324219 Z M 25 14.0625 C 26.441406 14.0625 27.765625 13.566406 28.828125 12.742188 L 37.257812 21.175781 C 36.75 21.824219 36.375 22.574219 36.15625 23.390625 L 31.246094 22.71875 C 31.246094 22.695312 31.25 22.675781 31.25 22.65625 C 31.25 19.210938 28.445312 16.40625 25 16.40625 C 22.835938 16.40625 20.929688 17.511719 19.804688 19.183594 L 18.875 18.71875 L 22.292969 13.4375 C 23.113281 13.832031 24.03125 14.0625 25 14.0625 Z M 25.78125 35.992188 L 25.78125 28.851562 C 28.320312 28.53125 30.386719 26.6875 31.03125 24.265625 L 35.941406 24.9375 C 35.941406 24.960938 35.9375 24.980469 35.9375 25 C 35.9375 26.492188 36.464844 27.863281 37.339844 28.9375 L 29.136719 37.515625 C 28.21875 36.699219 27.058594 36.152344 25.78125 35.992188 Z M 25 17.96875 C 27.585938 17.96875 29.6875 20.070312 29.6875 22.65625 C 29.6875 25.242188 27.585938 27.34375 25 27.34375 C 22.414062 27.34375 20.3125 25.242188 20.3125 22.65625 C 20.3125 20.070312 22.414062 17.96875 25 17.96875 Z M 19.109375 20.585938 C 18.882812 21.234375 18.75 21.929688 18.75 22.65625 C 18.75 25.835938 21.140625 28.464844 24.21875 28.851562 L 24.21875 35.992188 C 23.476562 36.085938 22.777344 36.308594 22.140625 36.636719 L 15.027344 24.660156 L 18.019531 20.039062 Z M 25 46.875 C 22.414062 46.875 20.3125 44.773438 20.3125 42.1875 C 20.3125 39.601562 22.414062 37.5 25 37.5 C 27.585938 37.5 29.6875 39.601562 29.6875 42.1875 C 29.6875 44.773438 27.585938 46.875 25 46.875 Z M 42.1875 20.3125 C 44.773438 20.3125 46.875 22.414062 46.875 25 C 46.875 27.585938 44.773438 29.6875 42.1875 29.6875 C 39.601562 29.6875 37.5 27.585938 37.5 25 C 37.5 22.414062 39.601562 20.3125 42.1875 20.3125 Z M 25 3.125 C 27.585938 3.125 29.6875 5.226562 29.6875 7.8125 C 29.6875 10.398438 27.585938 12.5 25 12.5 C 22.414062 12.5 20.3125 10.398438 20.3125 7.8125 C 20.3125 5.226562 22.414062 3.125 25 3.125 Z M 19.445312 10.660156 C 19.824219 11.402344 20.347656 12.058594 20.980469 12.589844 L 17.46875 18.015625 L 13.703125 16.132812 C 13.929688 15.484375 14.0625 14.789062 14.0625 14.0625 C 14.0625 13.585938 14.003906 13.125 13.902344 12.679688 Z M 3.125 14.0625 C 3.125 11.476562 5.226562 9.375 7.8125 9.375 C 10.398438 9.375 12.5 11.476562 12.5 14.0625 C 12.5 16.648438 10.398438 18.75 7.8125 18.75 C 5.226562 18.75 3.125 16.648438 3.125 14.0625 Z M 11.652344 18.984375 C 12.175781 18.574219 12.636719 18.085938 13.007812 17.535156 L 16.613281 19.335938 L 14.136719 23.164062 Z M 11.652344 18.984375 " />
+                        </g>
+                    </svg>
+                    <!--            -->
+                    <span class="font-semibold text-xl tracking-loose border-b border-black">Papers</span>
+                    <ul class="list-circle leading-loose pt-4">
+                        <!--<li class="pb-2">
+                        <span class="font-bold">Here we will insert the title of our publications</span>
+                        <p class="italic text-gray-800">here authors/journal/etc.</p>
+                    </li>-->
+                        <li><b>From Width-Based Model Checking to Width-Based Automated Theorem Proving</b>
+                            <br>Mateus de Oliveira Oliveira and Farhad Vadiee<br>
+                            37th AAAI Conference on Artificial Intelligence (AAAI 2023). Accepted.</li>
+
+                        <li><b>Unitary Branching Programs: Learnability and Lower Bounds</b> <br>
+                            Fidel Andino, Maria Kokkou, Mateus de Oliveira Oliveira, Farhad Vadiee<br>
+                            38-th International Conference on Machine Learning (ICML 2021) (accepted)</li>
+
+                    </ul>
+                </div>
+
+
+                <div class="relative m-4 mb-8 p-10 border border-gray-600" id="publications">
+                    <!--            graph top -->
+                    <svg class="fill-current text-gray-600 absolute left-45 -mt-16 bg-white"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50"
+                        height="50pt" viewBox="0 0 50 50" version="1.1">
+                        <g id="surface1">
+                            <path
+                                d="M 10.519531 28.75 C 9.699219 28.355469 8.78125 28.125 7.8125 28.125 C 4.367188 28.125 1.5625 30.929688 1.5625 34.375 C 1.5625 37.820312 4.367188 40.625 7.8125 40.625 C 9.976562 40.625 11.882812 39.519531 13.007812 37.847656 L 18.910156 40.800781 C 18.808594 41.246094 18.75 41.710938 18.75 42.1875 C 18.75 45.632812 21.554688 48.4375 25 48.4375 C 28.445312 48.4375 31.25 45.632812 31.25 42.1875 C 31.25 40.890625 30.855469 39.6875 30.175781 38.6875 L 38.472656 30.015625 C 39.511719 30.785156 40.796875 31.25 42.1875 31.25 C 45.632812 31.25 48.4375 28.445312 48.4375 25 C 48.4375 21.554688 45.632812 18.75 42.1875 18.75 C 40.746094 18.75 39.421875 19.246094 38.359375 20.070312 L 29.929688 11.640625 C 30.753906 10.578125 31.25 9.253906 31.25 7.8125 C 31.25 4.367188 28.445312 1.5625 25 1.5625 C 21.554688 1.5625 18.75 4.367188 18.75 7.8125 C 18.75 8.289062 18.808594 8.75 18.910156 9.195312 L 13.367188 11.214844 C 12.328125 9.195312 10.230469 7.8125 7.8125 7.8125 C 4.367188 7.8125 1.5625 10.617188 1.5625 14.0625 C 1.5625 17.507812 4.367188 20.3125 7.8125 20.3125 C 8.703125 20.3125 9.546875 20.125 10.3125 19.785156 L 13.1875 24.625 Z M 7.8125 39.0625 C 5.226562 39.0625 3.125 36.960938 3.125 34.375 C 3.125 31.789062 5.226562 29.6875 7.8125 29.6875 C 10.398438 29.6875 12.5 31.789062 12.5 34.375 C 12.5 36.960938 10.398438 39.0625 7.8125 39.0625 Z M 13.703125 36.445312 C 13.929688 35.796875 14.0625 35.101562 14.0625 34.375 C 14.0625 32.457031 13.195312 30.742188 11.832031 29.597656 L 14.078125 26.125 L 20.851562 37.523438 C 20.28125 38.03125 19.804688 38.640625 19.453125 39.324219 Z M 25 14.0625 C 26.441406 14.0625 27.765625 13.566406 28.828125 12.742188 L 37.257812 21.175781 C 36.75 21.824219 36.375 22.574219 36.15625 23.390625 L 31.246094 22.71875 C 31.246094 22.695312 31.25 22.675781 31.25 22.65625 C 31.25 19.210938 28.445312 16.40625 25 16.40625 C 22.835938 16.40625 20.929688 17.511719 19.804688 19.183594 L 18.875 18.71875 L 22.292969 13.4375 C 23.113281 13.832031 24.03125 14.0625 25 14.0625 Z M 25.78125 35.992188 L 25.78125 28.851562 C 28.320312 28.53125 30.386719 26.6875 31.03125 24.265625 L 35.941406 24.9375 C 35.941406 24.960938 35.9375 24.980469 35.9375 25 C 35.9375 26.492188 36.464844 27.863281 37.339844 28.9375 L 29.136719 37.515625 C 28.21875 36.699219 27.058594 36.152344 25.78125 35.992188 Z M 25 17.96875 C 27.585938 17.96875 29.6875 20.070312 29.6875 22.65625 C 29.6875 25.242188 27.585938 27.34375 25 27.34375 C 22.414062 27.34375 20.3125 25.242188 20.3125 22.65625 C 20.3125 20.070312 22.414062 17.96875 25 17.96875 Z M 19.109375 20.585938 C 18.882812 21.234375 18.75 21.929688 18.75 22.65625 C 18.75 25.835938 21.140625 28.464844 24.21875 28.851562 L 24.21875 35.992188 C 23.476562 36.085938 22.777344 36.308594 22.140625 36.636719 L 15.027344 24.660156 L 18.019531 20.039062 Z M 25 46.875 C 22.414062 46.875 20.3125 44.773438 20.3125 42.1875 C 20.3125 39.601562 22.414062 37.5 25 37.5 C 27.585938 37.5 29.6875 39.601562 29.6875 42.1875 C 29.6875 44.773438 27.585938 46.875 25 46.875 Z M 42.1875 20.3125 C 44.773438 20.3125 46.875 22.414062 46.875 25 C 46.875 27.585938 44.773438 29.6875 42.1875 29.6875 C 39.601562 29.6875 37.5 27.585938 37.5 25 C 37.5 22.414062 39.601562 20.3125 42.1875 20.3125 Z M 25 3.125 C 27.585938 3.125 29.6875 5.226562 29.6875 7.8125 C 29.6875 10.398438 27.585938 12.5 25 12.5 C 22.414062 12.5 20.3125 10.398438 20.3125 7.8125 C 20.3125 5.226562 22.414062 3.125 25 3.125 Z M 19.445312 10.660156 C 19.824219 11.402344 20.347656 12.058594 20.980469 12.589844 L 17.46875 18.015625 L 13.703125 16.132812 C 13.929688 15.484375 14.0625 14.789062 14.0625 14.0625 C 14.0625 13.585938 14.003906 13.125 13.902344 12.679688 Z M 3.125 14.0625 C 3.125 11.476562 5.226562 9.375 7.8125 9.375 C 10.398438 9.375 12.5 11.476562 12.5 14.0625 C 12.5 16.648438 10.398438 18.75 7.8125 18.75 C 5.226562 18.75 3.125 16.648438 3.125 14.0625 Z M 11.652344 18.984375 C 12.175781 18.574219 12.636719 18.085938 13.007812 17.535156 L 16.613281 19.335938 L 14.136719 23.164062 Z M 11.652344 18.984375 " />
+                        </g>
+                    </svg>
+                    <!--            -->
+                    <span class="font-semibold text-xl tracking-loose border-b border-black">Software</span>
+                    <ul class="list-circle leading-loose pt-4">
+                        <!--<li class="pb-2">
+                        <span class="font-bold">Here we will insert the title of our publications</span>
+                        <p class="italic text-gray-800">here authors/journal/etc.</p>
+                    </li>-->
+                        <li class="pb-2">TreeWidzard - An Engine for Tree-Decomposition-Based Algorithms</li>
+
+                        <li class="pb-2">LUBP - Learning Unitary Branching Programs (<a
+                                href="https://github.com/autoproving/LUBP"> github</a> )</li>
+
+                    </ul>
+                </div>
+
+
+                <div class="relative m-4 mb-8 p-10 border border-gray-600" id="publications">
+                    <!--            graph top -->
+                    <svg class="fill-current text-gray-600 absolute left-45 -mt-16 bg-white"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50"
+                        height="50pt" viewBox="0 0 50 50" version="1.1">
+                        <g id="surface1">
+                            <path
+                                d="M 10.519531 28.75 C 9.699219 28.355469 8.78125 28.125 7.8125 28.125 C 4.367188 28.125 1.5625 30.929688 1.5625 34.375 C 1.5625 37.820312 4.367188 40.625 7.8125 40.625 C 9.976562 40.625 11.882812 39.519531 13.007812 37.847656 L 18.910156 40.800781 C 18.808594 41.246094 18.75 41.710938 18.75 42.1875 C 18.75 45.632812 21.554688 48.4375 25 48.4375 C 28.445312 48.4375 31.25 45.632812 31.25 42.1875 C 31.25 40.890625 30.855469 39.6875 30.175781 38.6875 L 38.472656 30.015625 C 39.511719 30.785156 40.796875 31.25 42.1875 31.25 C 45.632812 31.25 48.4375 28.445312 48.4375 25 C 48.4375 21.554688 45.632812 18.75 42.1875 18.75 C 40.746094 18.75 39.421875 19.246094 38.359375 20.070312 L 29.929688 11.640625 C 30.753906 10.578125 31.25 9.253906 31.25 7.8125 C 31.25 4.367188 28.445312 1.5625 25 1.5625 C 21.554688 1.5625 18.75 4.367188 18.75 7.8125 C 18.75 8.289062 18.808594 8.75 18.910156 9.195312 L 13.367188 11.214844 C 12.328125 9.195312 10.230469 7.8125 7.8125 7.8125 C 4.367188 7.8125 1.5625 10.617188 1.5625 14.0625 C 1.5625 17.507812 4.367188 20.3125 7.8125 20.3125 C 8.703125 20.3125 9.546875 20.125 10.3125 19.785156 L 13.1875 24.625 Z M 7.8125 39.0625 C 5.226562 39.0625 3.125 36.960938 3.125 34.375 C 3.125 31.789062 5.226562 29.6875 7.8125 29.6875 C 10.398438 29.6875 12.5 31.789062 12.5 34.375 C 12.5 36.960938 10.398438 39.0625 7.8125 39.0625 Z M 13.703125 36.445312 C 13.929688 35.796875 14.0625 35.101562 14.0625 34.375 C 14.0625 32.457031 13.195312 30.742188 11.832031 29.597656 L 14.078125 26.125 L 20.851562 37.523438 C 20.28125 38.03125 19.804688 38.640625 19.453125 39.324219 Z M 25 14.0625 C 26.441406 14.0625 27.765625 13.566406 28.828125 12.742188 L 37.257812 21.175781 C 36.75 21.824219 36.375 22.574219 36.15625 23.390625 L 31.246094 22.71875 C 31.246094 22.695312 31.25 22.675781 31.25 22.65625 C 31.25 19.210938 28.445312 16.40625 25 16.40625 C 22.835938 16.40625 20.929688 17.511719 19.804688 19.183594 L 18.875 18.71875 L 22.292969 13.4375 C 23.113281 13.832031 24.03125 14.0625 25 14.0625 Z M 25.78125 35.992188 L 25.78125 28.851562 C 28.320312 28.53125 30.386719 26.6875 31.03125 24.265625 L 35.941406 24.9375 C 35.941406 24.960938 35.9375 24.980469 35.9375 25 C 35.9375 26.492188 36.464844 27.863281 37.339844 28.9375 L 29.136719 37.515625 C 28.21875 36.699219 27.058594 36.152344 25.78125 35.992188 Z M 25 17.96875 C 27.585938 17.96875 29.6875 20.070312 29.6875 22.65625 C 29.6875 25.242188 27.585938 27.34375 25 27.34375 C 22.414062 27.34375 20.3125 25.242188 20.3125 22.65625 C 20.3125 20.070312 22.414062 17.96875 25 17.96875 Z M 19.109375 20.585938 C 18.882812 21.234375 18.75 21.929688 18.75 22.65625 C 18.75 25.835938 21.140625 28.464844 24.21875 28.851562 L 24.21875 35.992188 C 23.476562 36.085938 22.777344 36.308594 22.140625 36.636719 L 15.027344 24.660156 L 18.019531 20.039062 Z M 25 46.875 C 22.414062 46.875 20.3125 44.773438 20.3125 42.1875 C 20.3125 39.601562 22.414062 37.5 25 37.5 C 27.585938 37.5 29.6875 39.601562 29.6875 42.1875 C 29.6875 44.773438 27.585938 46.875 25 46.875 Z M 42.1875 20.3125 C 44.773438 20.3125 46.875 22.414062 46.875 25 C 46.875 27.585938 44.773438 29.6875 42.1875 29.6875 C 39.601562 29.6875 37.5 27.585938 37.5 25 C 37.5 22.414062 39.601562 20.3125 42.1875 20.3125 Z M 25 3.125 C 27.585938 3.125 29.6875 5.226562 29.6875 7.8125 C 29.6875 10.398438 27.585938 12.5 25 12.5 C 22.414062 12.5 20.3125 10.398438 20.3125 7.8125 C 20.3125 5.226562 22.414062 3.125 25 3.125 Z M 19.445312 10.660156 C 19.824219 11.402344 20.347656 12.058594 20.980469 12.589844 L 17.46875 18.015625 L 13.703125 16.132812 C 13.929688 15.484375 14.0625 14.789062 14.0625 14.0625 C 14.0625 13.585938 14.003906 13.125 13.902344 12.679688 Z M 3.125 14.0625 C 3.125 11.476562 5.226562 9.375 7.8125 9.375 C 10.398438 9.375 12.5 11.476562 12.5 14.0625 C 12.5 16.648438 10.398438 18.75 7.8125 18.75 C 5.226562 18.75 3.125 16.648438 3.125 14.0625 Z M 11.652344 18.984375 C 12.175781 18.574219 12.636719 18.085938 13.007812 17.535156 L 16.613281 19.335938 L 14.136719 23.164062 Z M 11.652344 18.984375 " />
+                        </g>
+                    </svg>
+                    <!--            -->
+                    <span class="font-semibold text-xl tracking-loose border-b border-black">Music</span>
+                    <br><br>
+                    I love play piano and composing! <br>
+                    <a href="https://www.youtube.com/watch?v=MaM4jBbqsGQ&ab_channel=FarhadVadiee" style="color:red">
+                        Link </a> to one of my playings. <br>
+                    <a href="https://music.apple.com/no/album/hygge-single/1505849404" style="color:red"> Link </a> to
+                    one of my own pieces.
+                </div>
+                <!--            <div class="relative m-4 mb-8 p-10 border border-gray-600 bg-grid">-->
+                <!--&lt;!&ndash;               content here &ndash;&gt;-->
+                <!--            </div>-->
+
+                <!--            <dv class="relative m-4 mb-8 p-10 border border-gray-600 bg-circuit">-->
+                <!--&lt;!&ndash;               content here &ndash;&gt;-->
+                <!--            </div>-->
+            </div>
+
+        </div>
+    </div>
+
+    <p class="text-center text-xs text-gray-200">Designed by Fazi :)</p>
 </body>
-</html>
 
+</html>
